@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <defs>
+    <style>
+      .bg { fill: #0e0f13; }
+      .accent { fill: #d4943a; }
+      .light { fill: #e8e4dc; }
+    </style>
+  </defs>
+
+  <!-- Outer square with cut corner -->
+  <polygon class="bg" points="0,0 100,0 120,20 120,120 20,120 0,100"/>
+
+  <!-- Corner accent lines -->
+  <polyline points="100,0 120,20" stroke="#d4943a" stroke-width="1.5" fill="none"/>
+  <line x1="0" y1="100" x2="20" y2="120" stroke="#d4943a" stroke-width="0.75" fill="none" opacity="0.4"/>
+
+  <!-- Y letterform -->
+  <line x1="38" y1="28" x2="60" y2="60" stroke="#d4943a" stroke-width="7" stroke-linecap="round"/>
+  <line x1="82" y1="28" x2="60" y2="60" stroke="#d4943a" stroke-width="7" stroke-linecap="round"/>
+  <line x1="60" y1="60" x2="60" y2="90" stroke="#e8e4dc" stroke-width="7" stroke-linecap="round"/>
+
+  <!-- Dot accent -->
+  <circle cx="93" cy="90" r="5" class="accent"/>
+
+  <!-- Bottom text -->
+  <text x="60" y="112" font-family="'Courier New', monospace" font-size="8" fill="#d4943a" text-anchor="middle" letter-spacing="4" opacity="0.7">YOUSEF</text>
+</svg>
